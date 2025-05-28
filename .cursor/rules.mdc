@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# React app for ecommerce site similar to sample microservices by google 
+
+## Description
+
+sample application  is https://github.com/letsramp/sample-microservices
+
+Use Fake store API using http so no need to build the backend 
+
+```pattern
+// This pattern matches all function declarations in TypeScript
+function $NAME($PARAMS) {
+  $BODY
+}
+```
+
+```action
+// This action adds a comment above each matched function
+// $MATCH refers to the matched code
+// $NAME, $PARAMS, $BODY are variables from the pattern
+// The action can use these variables to generate new code
+// For example:
+//
+// // Function: $NAME
+// $MATCH
+
+// Implementation:
+return `// Function: ${$NAME}\n${$MATCH}`;
